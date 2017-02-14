@@ -181,6 +181,78 @@ section {
 
     //section3
     &.section3 {
+        background: {
+            image: url("/images/adri4.jpg");
+            position: 50% center;
+            repeat: no-repeat;
+            attachment: fixed;
+            size: cover;
+        }
+    }
 
+    //section4
+    &.section4 {
+        background: {
+            image: url("/images/adri2.jpg");
+            position: 50% center;
+            repeat: no-repeat;
+            attachment: fixed;
+            size: cover;
+        }
+    }
+
+    //section5
+    &.section5 {
+        background: {
+            image: url("/images/adri5.jpg");
+            position: 50% center;
+            repeat: no-repeat;
+            attachment: fixed;
+            size: cover;
+        }
+    }
+
+    //section6
+    &.section6 {
+        background: {
+            image: url("/images/adri6.jpg");
+            position: 50% center;
+            repeat: no-repeat;
+            attachment: fixed;
+            size: cover;
+        }
+    }
+
+    &.footer {
+        padding: 0 !important;
+        align-items: flex-end;
+
+        .footer-box {
+            position: relative;
+            bottom: 0;
+            width: 90%;
+            max-width: 100%;
+            height: 350px;
+            background-color: rgba(255,99,71,1);
+            margin: 0 auto;
+
+            .message {
+                position: absolute;
+                bottom: 20%;
+                left: 0;
+                right: 0;
+                margin: auto;
+                padding: 20px;
+                display: flex;
+                flex-flow: column wrap;
+                align-items: center;
+                justify-content: center;
+
+                img {
+                    width: 600px;
+                    max-width: 100%;
+                }
+            }
+        }
     }
 }
