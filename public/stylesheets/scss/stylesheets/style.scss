@@ -170,7 +170,13 @@ section {
 
     //section2
     &.section2 {
-
+        background: {
+            image: url("/images/adri1.jpg");
+            position: 50% center;
+            repeat: no-repeat;
+            attachment: fixed;
+            size: cover;
+        }
     }
 
     //section3

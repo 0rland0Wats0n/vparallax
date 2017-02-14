@@ -1,8 +1,3 @@
-$(function() {
-    // Default
-    jQuery.scrollSpeed(50, 1800);
-});
-
 $(window).scroll(function() {
 
     // capture scrolltop
@@ -36,12 +31,12 @@ $(window).scroll(function() {
     }
 
     // sections
-    $('.author-quote').each(function() {
-
-        if(wScroll > $(this).offset().top - $(window).height()) {
-            $(this).css({
-                'transform': 'translate(0, ' + wScroll/24 + '%)'
-            });
-        }
-    });
+    // $('.author-quote').each(function() {
+    //
+    //     if(wScroll > $(this).offset().top - $(window).height()) {
+    //         $(this).css({
+    //             'transform': 'translate(0, ' + wScroll/24 + '%)'
+    //         });
+    //     }
+    // });
 });
